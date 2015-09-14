@@ -61,7 +61,7 @@ Feature review:
 
 In my experience, seeing C might be a better choice than B can be a very valuable lesson. Also, it is best learned as early in the development process as possible: the more we're already invested in B, the less we're inclined to consider C to be a viable alternative.
 
-Therefore I'm suggesting to treat your next code review as a feature review. Start by testing the feature _as a whole_. If you think end users would be happy with the result, then (and only then!) it's time to dive into the code for further inspection.
+Therefore I'm suggesting to treat your next code review as a feature review. Start by testing the feature _as an end user_. If you're happy with the result, then (and only then!) it's time to dive into the code for further inspection.
 
 
 [wikipedia]: https://en.wikipedia.org/wiki/Code_review
