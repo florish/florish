@@ -63,19 +63,6 @@ In my experience, seeing C might be a better choice than B can be a very valuabl
 
 Therefore I'm suggesting to treat your next code review as a feature review. Start by testing the feature _as a whole_. If you think end users would be happy with the result, then (and only then!) it's time to dive into the code for further inspection.
 
-----------
-
-But wait: don't we have automated tests for that? Sure we have. For example, in our Ruby on Rails projects, our test scripts simulate users logging in, clicking links, filling out forms, hitting buttons, and seeing the results we expect them to see.
-
-As this is also part of the code base, any errors there would be caught by the reviewer, and that's that. Just hit "merge" and push the code into production.
-
-OK. Great.
-
-I'd like to argue we're missing part of the point of reviewing.
-
-While review the code itself is a great thing to do, and surely better than not doing it, I'd like a review to first and foremostly consider what the code _aims to achieve_. The latter is also called the "feature": the purpose for which the code was written in the first place.
-
----------
 
 [wikipedia]: https://en.wikipedia.org/wiki/Code_review
 [codinghorror]: http://blog.codinghorror.com/code-reviews-just-do-it/
