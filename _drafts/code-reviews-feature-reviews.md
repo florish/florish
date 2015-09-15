@@ -1,23 +1,19 @@
 ---
 layout: post
-title: Treat code reviews as feature reviews
+title: Feature review first, code review later
 ---
 
 {{page.title}}
 ==============
 
-Consider you're on a team developing new features for a software application. You pick a feature, create a new branch in your version control system. You start coding and at some point, you open a pull request to merge your work into the application's main branch.
+_You want me to do a code review? Great, let's dive into the code right away! But what if I'd say your review results might improve by prepending a "feature review" step?_
 
-At that point, you probably ask a co-worker to do a code review.
-
-In my day to day job, this is the workflow we use. Everyone on a development team both requests and conducts code reviews.
-
-Over the last few weeks, I noticed my review results differ from most of the review results I get back from others. Most prominently, in my reviews I seem to put:
+Where I work, everybody requests and conducts code reviews. Over the last few weeks, I noticed my review results differ from most of the review results I get back from co-workers. Most prominently, in my reviews I seem to put:
 
 * _more_ attention to how the overall feature works for end users
 * _less_ attention to the code itself, e.g. the use of design patterns and coding style
 
-This puzzles me: should I be worrying less about end users and just focus on the code itself?
+This puzzled me: should my reviews worry less about end users and focus more on the code itself? My answer turned out to be "no". The rest of this post aims to explain why.
 
 ## Code review
 
@@ -27,11 +23,11 @@ First question to answer: what _is_ a code review anyway? [Wikipedia][] tells us
 
 Further reading ([1][codinghorror], [2][atlassian], [3][fogcreek]) gives articles on what a code review does, why it's important (e.g. catch bugs early), and considerations for both submitters and reviewers.
 
-I'm not seeing anything about actually running the application, and trying out the feature from an end user perspective to see whether things works as expected. Apparently, this is not part of a code review.
+I'm not seeing anything about the end user perspective -- actually running the application, and trying out the feature to see whether things works as intended.
 
 ## Naming things
 
-So, what to call it then, a _feature review_ maybe? This turns out to be a term not all too commonly associated with programming. There's a [StackExchange question][stackexchange] asking about feature reviews as an addition to code reviews, but no definitive answers there.
+So, what to call this other part then, a _feature review_ maybe? This turns out to be a term not all too commonly associated with programming. There's a [StackExchange question][stackexchange] asking about feature reviews as an addition to code reviews, but no definitive answers there.
 
 Thinking about this some more, in software development, we do have a name for this kind of feedback. Two terms pop into my mind:
 
@@ -40,13 +36,17 @@ Thinking about this some more, in software development, we do have a name for th
 
 As I see things, QA and UA are mostly considered as steps taken _after_ code reviews have been performed. While useful as extra safeguards, it's not the same as including this perspective into the code review process itself.
 
+In lack of a better name, let's stick to _feature review_ for the rest of this post and define it as "reviewing a feature's usefulness from an end user's perspective".
+
 ## Back to the feature
+
+Now we have two concepts: code review and feature review.
 
 Let's do a thought experiment for a moment. Say we're working on an application, which currently has one feature called A. The customer requested a new feature called B, which got built and is currently awaiting peer review. Let's look at this from a code and a feature perspective.
 
 What would a _code_ review reveal? I'd say a code review is considered with how we got from A to B. Logic can be optimized, edge cases tackled, bugs avoided, and so on.
 
-In reviewing the _feature_, we're considering something else: are we getting from A to B in the first place? By trying out the application itself without looking at the code underneath, we force ourself to take on the perspective of an outsider. In my view, this is the only way to get close to the experience end users will have once the feature is rolled out. Often, I find myself asking questions like: does this 'feel' right? And it might even raise the question whether B was such a good idea in the first place. Isn't C what we actually meant, now that we see B in action?
+In reviewing the _feature_, we're considering something else: are we getting from A to B in the first place? By trying out the application without looking at the code underneath, we force ourself to take on the perspective of an outsider. In my view, this is the only way to get close to the experience end users will have once the feature is rolled out. Often, I find myself asking questions like: does this 'feel' right? And it might even raise the question whether B was such a good idea in the first place. Isn't C what we actually meant, now that we see B in action?
 
 Visually, this could look something like this:
 
