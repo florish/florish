@@ -63,6 +63,41 @@ In my experience, seeing C might be a better choice than B can be a very valuabl
 
 Therefore I'm suggesting to treat your next code review as a feature review. Start by testing the feature _as an end user_. If you're happy with the result, then (and only then!) it's time to dive into the code for further inspection.
 
+--------
+
+## Outline for code example rewrite
+
+Admin:
+
+* List users
+* Fill in form
+* Save and automatically send activation email
+
+New user:
+
+* Visit activation link in email
+* Enter new password
+* Save password and automatically log in and redirect
+
+
+Code review might reveal things like:
+
+* Consider rewriting the new user form using a form builder plugin
+* Send activation email in a background job instead of inline
+* Use full URL instead of relative path in activation email body
+* Replace custom redirect code by authentication plugin's redirect feature
+
+
+Feature review:
+
+* How to resend the activation mail after fixing a typo in the email address? Maybe decouple user create logic from sending the activation mail?
+* The activation HTML email layout looks a bit weird on my mail client
+* The new password page has not been translated yet, some labels are still in English (should be Dutch)
+
+
+--------
+
+
 
 [wikipedia]: https://en.wikipedia.org/wiki/Code_review
 [codinghorror]: http://blog.codinghorror.com/code-reviews-just-do-it/
