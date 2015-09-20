@@ -23,7 +23,7 @@ First question to answer: what _is_ a code review anyway? [Wikipedia][] tells us
 
 Further reading ([1][codinghorror], [2][atlassian], [3][fogcreek]) gives articles on what a code review does, why it's important (e.g. catch bugs early), and considerations for both submitters and reviewers.
 
-I'm not seeing anything about the end user perspective -- actually running the application, and trying out the feature to see whether things works as intended.
+I'm not seeing anything about the end user perspective -- actually running the application, and trying out the feature to see whether things work as intended.
 
 ## Naming things
 
