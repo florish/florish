@@ -17,7 +17,7 @@ Where I work, everybody requests and conducts code reviews. Over the last few we
 
 This puzzled me: should my reviews worry less about end users and focus more on the code itself? My answer turned out to be "no". The rest of this post explains why.
 
-## Code review
+## On code reviews
 
 First question to answer: what _is_ a code review anyway? [Wikipedia][] tells us this:
 
@@ -57,7 +57,7 @@ The current implementation is designed as follows:
 * On success, the system automatically sends an activation e-mail
 * A confirmation message is shown on the screen
 
-### On code reviews
+### Code review
 
 Reviewing the programming code might reveal things like:
 
