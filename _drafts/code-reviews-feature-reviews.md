@@ -1,19 +1,21 @@
 ---
 layout: post
-title: Feature review first, code review later
+title: Back to the feature
 ---
 
 {{page.title}}
 ==============
 
-_You want me to do a code review? Great, let's dive into the code right away! But what if I'd say your review results might improve by prepending a "feature review" step?_
+_Feature review first, code review later_
 
-Where I work, everybody requests and conducts code reviews. Over the last few weeks, I noticed my review results differ from most of the review results I get back from co-workers. Most prominently, in my reviews I seem to put:
+**Step one in a code review: read the programming code. But what if I say your review results might improve by prepending a "feature review" step?**
+
+Where I work, everybody requests and conducts code reviews. Over the last few weeks, I noticed my review results differ from the review results I get back from co-workers. Most prominently, in my reviews I seem to put:
 
 * _more_ attention to how the overall feature works for end users
 * _less_ attention to the code itself, e.g. the use of design patterns and coding style
 
-This puzzled me: should my reviews worry less about end users and focus more on the code itself? My answer turned out to be "no". The rest of this post aims to explain why.
+This puzzled me: should my reviews worry less about end users and focus more on the code itself? My answer turned out to be "no". The rest of this post explains why.
 
 ## Code review
 
@@ -29,70 +31,67 @@ I'm not seeing anything about the end user perspective -- actually running the a
 
 So, what to call this other part then, a _feature review_ maybe? This turns out to be a term not all too commonly associated with programming. There's a [StackExchange question][stackexchange] asking about feature reviews as an addition to code reviews, but no definitive answers there.
 
-Thinking about this some more, in software development, we do have a name for this kind of feedback. Two terms pop into my mind:
+Thinking about this some more, in software development, we do have names for this type of feedback. Two terms pop into my mind:
 
 * Quality assurance (QA): dedicated testers systematically trying out a feature before delivering to customers and/or end users
 * User acceptance (UA) tests: customers testing and formally accepting (or rejecting) features before putting them into production
 
 As I see things, QA and UA are mostly considered as steps taken _after_ code reviews have been performed. While useful as extra safeguards, it's not the same as including this perspective into the code review process itself.
 
-In lack of a better name, let's stick to _feature review_ for the rest of this post and define it as "reviewing a feature's usefulness from an end user's perspective".
+In lack of a better name, we'll stick to _feature review_ for the rest of this post and define it as "reviewing a feature's usefulness from an end user's perspective".
 
-## Back to the feature
+## Example: user management
 
-Now we have two concepts: code review and feature review.
+Now that we have code review and feature review defined, how do these concepts relate? This is perhaps best shown by example. (This example is a simplified version of a real situation encountered at work.)
 
-Let's do a thought experiment for a moment. Say we're working on an application, which currently has one feature called A. The customer requested a new feature called B, which got built and is currently awaiting peer review. Let's look at this from a code and a feature perspective.
+Say we have an application with a feature request from a customer:
 
-What would a _code_ review reveal? I'd say a code review is considered with how we got from A to B. Logic can be optimized, edge cases tackled, bugs avoided, and so on.
+> Administrator users should be able to create and activate new (non-admin) users
 
-In reviewing the _feature_, we're considering something else: are we getting from A to B in the first place? By trying out the application without looking at the code underneath, we force ourself to take on the perspective of an outsider. In my view, this is the only way to get close to the experience end users will have once the feature is rolled out. Often, I find myself asking questions like: does this 'feel' right? And it might even raise the question whether B was such a good idea in the first place. Isn't C what we actually meant, now that we see B in action?
+This feature has been built and is now ready for review.
 
-Visually, this could look something like this:
+The current implementation is designed as follows:
 
-Code review:
+* Administrator clicks "New user" link on the Users index page
+* Fills in form fields (name, e-mail address) and clicks "Save" button
+* On success, the system automatically sends an activation e-mail
+* A confirmation message is shown on the screen
 
-    A -/\^,---> B  ==>  A --------> B
+### Code review
 
-Feature review:
+Reviewing the programming code might reveal things like:
 
-    A -/\^,---> B  ==>  A ---XX--->
-                                    C
+* The code for generating the new user form seems a bit verbose. Consider rewriting the form using a form builder plugin.
+* On saving the user, the response is halted until the e-mail has been sent. Consider decreasing the response time by sending the activation e-mail in a background job instead.
 
-In my experience, seeing C might be a better choice than B can be a very valuable lesson. Also, it is best learned as early in the development process as possible: the more we're already invested in B, the less we're inclined to consider C to be a viable alternative.
+### Feature review
 
-Therefore I'm suggesting to treat your next code review as a feature review. Start by testing the feature _as an end user_. If you're happy with the result, then (and only then!) it's time to dive into the code for further inspection.
+Trying out the feature as an administrator might reveal issues such as:
 
---------
+* The "New user" link is positioned below the user list. I already had a couple of test users in my database and couldn't find the link right away. Maybe move the link to the top?
+* I made a typo in the e-mail address and couldn't find a way to resend the activation mail after fixing it. Maybe we should decouple sending the activation mail from creating the new user?
 
-## Outline for code example rewrite
+## Is it doing the job?
 
-Admin:
+Looking at the code review feedback, I'd say it suggests _code_ improvements _given the current design_. The feature review, on the other hand, suggests _design_ improvements _given the requested feature_. Put in another way:
 
-* List users
-* Fill in form
-* Save and automatically send activation email
+* Feature review asks: is it doing the job _at all_?
+* Code review asks: is it doing the job _well_?
 
-New user:
+For me, the _at all_ question should always be answered first: if the current version of the feature is not doing the job at all, don't even bother optimizing the code behind it. Chances are the current code has to be rewritten anyway.
 
-* Visit activation link in email
-* Enter new password
-* Save password and automatically log in and redirect
-
-
-Code review might reveal things like:
-
-* Consider rewriting the new user form using a form builder plugin
-* Send activation email in a background job instead of inline
-* Use full URL instead of relative path in activation email body
-* Replace custom redirect code by authentication plugin's redirect feature
+This is also illustrated by the feedback on the send activation e-mail process from our example. While the code review suggestion of moving e-mail logic into a background job makes a lot of sense, the feature review reveals a design flaw: an administrator cannot resend activation mails for the same user. This means we have to rewrite parts of our code, and it's usually best to do this (separate activation from creation) before optimizing one part (offloading e-mail sending to a background job).
 
 
-Feature review:
+------------
 
-* How to resend the activation mail after fixing a typo in the email address? Maybe decouple user create logic from sending the activation mail?
-* The activation HTML email layout looks a bit weird on my mail client
-* The new password page has not been translated yet, some labels are still in English (should be Dutch)
+(stuff below not part of the post)
+
+## Design choices
+
+## Some afterthoughts
+
+Of course, design choices in developing a feature have been made way before the code gets reviewed. But until a feature has been completed, these design choices are always assumptions, as the actual feature has not been built yet. Once a review is requested, the feature _is_ real, and it makes sense to explicitly verify the design choices made earlier.
 
 
 --------
