@@ -57,7 +57,7 @@ The current implementation is designed as follows:
 * On success, the system automatically sends an activation e-mail
 * A confirmation message is shown on the screen
 
-### Code review
+### On code reviews
 
 Reviewing the programming code might reveal things like:
 
