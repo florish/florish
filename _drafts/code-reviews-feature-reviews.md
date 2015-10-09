@@ -6,8 +6,6 @@ title: Back to the feature
 {{page.title}}
 ==============
 
-_Feature review first, code review later_
-
 **Step one in a code review: read the code. But what if I told you your review results might improve by prepending a "feature review" step?**
 
 Where I work, everybody requests and conducts code reviews. Lately, I noticed my review results differ from the results I get back from co-workers. Most prominently, in my reviews I seem to put:
