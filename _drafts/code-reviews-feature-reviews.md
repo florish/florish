@@ -72,19 +72,15 @@ For me, the _well_ question should always be answered first: if the current vers
 
 This is also illustrated in the example. The feature review suggests separating _creating_ a user from _activating_ it. This enables administrators to resend activation mails. Adding this functionality should be considered before implementing the code review optimization of sending the e-mail in a background job.
 
+## Conclusion
+
+While a code review may suggest it is about code _only_, such a limited perspective can lead to optimized code that does not work well for end users. Avoid this trap by first reviewing a feature from and end user perspective. Play around and check if everything feels right and works as expected. If so, go ahead and dive into the code for further inspection. If not, fix the feature first -- and the code later.
+
 ------------
 
-(stuff below not part of the post)
+### Afterthought: feature design
 
-## Design choices
-
-## Some afterthoughts
-
-Of course, design choices in developing a feature have been made way before the code gets reviewed. But until a feature has been completed, these design choices are always assumptions, as the actual feature has not been built yet. Once a review is requested, the feature _is_ real, and it makes sense to explicitly verify the design choices made earlier.
-
-
---------
-
+Of course, feature design should be discussed way before reviewing the resulting code. But until a feature has been built, design choices are based on assumptions. Once a review is requested, the feature _is_ real, making it possible to explicitly verify the design choices made earlier.
 
 
 [wikipedia]: https://en.wikipedia.org/wiki/Code_review
