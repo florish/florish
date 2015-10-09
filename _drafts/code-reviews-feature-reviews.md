@@ -8,49 +8,39 @@ title: Back to the feature
 
 _Feature review first, code review later_
 
-**Step one in a code review: read the programming code. But what if I say your review results might improve by prepending a "feature review" step?**
+**Step one in a code review: read the code. But what if I told you your review results might improve by prepending a "feature review" step?**
 
-Where I work, everybody requests and conducts code reviews. Over the last few weeks, I noticed my review results differ from the review results I get back from co-workers. Most prominently, in my reviews I seem to put:
+Where I work, everybody requests and conducts code reviews. Lately, I noticed my review results differ from the results I get back from co-workers. Most prominently, in my reviews I seem to put:
 
-* _more_ attention to how the overall feature works for end users
-* _less_ attention to the code itself, e.g. the use of design patterns and coding style
+* _more_ attention to how the overall feature works for end users;
+* _less_ attention to the code itself, e.g. the use of design patterns and coding style.
 
-This puzzled me: should my reviews worry less about end users and focus more on the code itself? My answer turned out to be "no". The rest of this post explains why.
-
-## On code reviews
-
-First question to answer: what _is_ a code review anyway? [Wikipedia][] tells us this:
-
-> Code review is systematic examination (often known as peer review) of computer source code.
-
-Further reading ([1][codinghorror], [2][atlassian], [3][fogcreek]) gives articles on what a code review does, why it's important (e.g. catch bugs early), and considerations for both submitters and reviewers.
-
-I'm not seeing anything about the end user perspective -- actually running the application, and trying out the feature to see whether things work as intended.
+This puzzled me: should my reviews focus less on end users and more on the code itself? My answer turned out to be "no". The rest of this post explains why.
 
 ## Naming things
 
-So, what to call this other part then, a _feature review_ maybe? This turns out to be a term not all too commonly associated with programming. There's a [StackExchange question][stackexchange] asking about feature reviews as an addition to code reviews, but no definitive answers there.
+Literature on code reviews ([Wikipedia][], [1][codinghorror], [2][atlassian], [3][fogcreek]) does not mention the end user perspective -- actually running the application, and trying out the feature to see whether things work as intended.
 
-Thinking about this some more, in software development, we do have names for this type of feedback. Two terms pop into my mind:
+So, what to call this other part then, a _feature review_ maybe? This turns out to be a term not all too commonly associated with programming. There's a [StackExchange question][stackexchange] mentioning it as an addition to code reviews, but no definitive answers there.
 
-* Quality assurance (QA): dedicated testers systematically trying out a feature before delivering to customers and/or end users
-* User acceptance (UA) tests: customers testing and formally accepting (or rejecting) features before putting them into production
+To be sure, we do have names for this type of feedback. Two terms pop into my mind:
 
-As I see things, QA and UA are mostly considered as steps taken _after_ code reviews have been performed. While useful as extra safeguards, it's not the same as including this perspective into the code review process itself.
+* Quality assurance (QA) -- dedicated testers systematically trying out a feature before delivering to customers and/or end users;
+* User acceptance (UA) tests -- customers testing and formally accepting (or rejecting) features before putting them into production.
+
+QA and UA are mostly considered as steps taken _after_ code reviews have been performed. While useful as extra safeguards, it's not the same as including this perspective into the code review process itself.
 
 In lack of a better name, we'll stick to _feature review_ for the rest of this post and define it as "reviewing a feature's usefulness from an end user's perspective".
 
 ## Example: user management
 
-Now that we have code review and feature review defined, how do these concepts relate? This is perhaps best shown by example. (This example is a simplified version of a real situation encountered at work.)
+How do code reviews and feature reviews relate? This is perhaps best demonstrated with an example. (This example is a simplified version of a real situation encountered at work.)
 
 Say we have an application with a feature request from a customer:
 
 > Administrator users should be able to create and activate new (non-admin) users
 
-This feature has been built and is now ready for review.
-
-The current implementation is designed as follows:
+This feature has been built and is now ready for review. The current implementation is designed as follows:
 
 * Administrator clicks "New user" link on the Users index page
 * Fills in form fields (name, e-mail address) and clicks "Save" button
@@ -73,15 +63,14 @@ Trying out the feature as an administrator might reveal issues such as:
 
 ## Is it doing the job?
 
-Looking at the code review feedback, I'd say it suggests _code_ improvements _given the current design_. The feature review, on the other hand, suggests _design_ improvements _given the requested feature_. Put in another way:
+The code reviews suggests _code_ improvements _given the current design_. The feature review, on the other hand, suggests _design_ improvements _given the requested feature_. Put in another way:
 
-* Feature review asks: is it doing the job _at all_?
-* Code review asks: is it doing the job _well_?
+* Feature review asks: is it doing the job _well_?
+* Code review asks: is it doing the job _cleanly_?
 
-For me, the _at all_ question should always be answered first: if the current version of the feature is not doing the job at all, don't even bother optimizing the code behind it. Chances are the current code has to be rewritten anyway.
+For me, the _well_ question should always be answered first: if the current version of the feature is not doing a good job, don't even bother optimizing the code behind it. Chances are the current code has to be rewritten anyway.
 
-This is also illustrated by the feedback on the send activation e-mail process from our example. While the code review suggestion of moving e-mail logic into a background job makes a lot of sense, the feature review reveals a design flaw: an administrator cannot resend activation mails for the same user. This means we have to rewrite parts of our code, and it's usually best to do this (separate activation from creation) before optimizing one part (offloading e-mail sending to a background job).
-
+This is also illustrated in the example. The feature review suggests separating _creating_ a user from _activating_ it. This enables administrators to resend activation mails. Adding this functionality should be considered before implementing the code review optimization of sending the e-mail in a background job.
 
 ------------
 
