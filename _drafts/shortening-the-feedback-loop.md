@@ -61,6 +61,10 @@ OUTLINE:
 
 ## Give feedback priority
 
+
+
+OUTLINE:
+
 * Giving feedback on someone else's feature is more important than working on your own stuff
 * Don't forget: giving good feedback takes time, allow this time to be spent
 
