@@ -58,4 +58,60 @@ Keep iterating until the work is done and ready to move to the next list on the 
 
 ...
 
+------------------------
+
+## RANDOM IDEAS
+
+~~~
+..... ..... .....
+----- ----- -----
+===== ===== =====
+
+|-_-| |#_#| |*_*|
+  -------------
+   |@_@| |~_~|
+~~~
+
+If getting together is so essential, why not go all the way and do pair programming only?
+
+Yes, well, that's a good question. For us, this would currently be quite a paradigm shift. For the better, possibly, but a paradigm shift nonetheless.
+
+
+## Start together
+
+Manage items example
+
+* What do you mean by "items"?
+* What fields are there?
+* Simple list and form approach, or do we need more?
+
+Not starting together revealed words can me interpreted in so many ways.
+
+Opposite: just start building stuff, assuming the project owner must have had his of her reasons for the suggested implementation. We'll see how it goes and meet later.
+
+
+## Keep getting together
+
+As you build, you learn and make lots of decisions. Sometimes these are good decisions, sometimes they are not so good.
+
+It's easy to get sidetracked by unnecessary extras.
+
+Opposite: muddling through alone, hoping (wishing) for that "Eureka!" moment.
+
+
+## Move out extra work
+
+Split up the work into multiple cards.
+
+Ignoring this advice: keep on expanding that pull request, just because someone created a card which included all of this work (wow, this is a BIG feature! So much more work than we thought)
+
+Opposite: doing that related feature, which would be next anyway, right away and include it in the branch you're already on.
+
+
+## Give feedback priority
+
+Opposite: finish your own work first and let the reviewee muddle through, or worse, wait for you to be done before taking up the next card.
+
+
+
 
