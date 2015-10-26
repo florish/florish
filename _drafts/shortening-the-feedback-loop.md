@@ -46,6 +46,16 @@ Keep iterating until the work is done and ready to move to the next list on the 
 
 ## Move out extra work
 
+We use Trello's checklists a lot for dividing work into smaller parts. While working on features, we sometimes saw initial five item checklists expand to twenty or even thirty cards.
+
+The first time this happened, we muddled through, anding up with a pull request containg about a hundred commits and thousands of lines of code. This is not good for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
+
+Instead of expanding the feature along the way, consider moving parts of the original feature to new cards. (Trello support this by offering a "Convert to Card" feature for every checklist item.)
+
+This allows you to focus on the core feature at hand, without having to remember some parts are still missing, as Trello is keeping the information for you.
+
+OUTLINE:
+
 * Create new cards for non-essential functionality
 * Avoid putting multiple cards into a single pull request
 
