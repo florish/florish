@@ -18,11 +18,19 @@ We laughed at the statement's cheesiness, and got back to work.
 
 ## How we manage projects
 
-Where I work, project teams usually consist of two to four developers, one of which also has the role of _project owner_. Being a project owner means tracking project progress, arranging meetings with the client, and also making sure features are ready for development. (The suggestions presented in this article are mostly based on my personal experiences as a project owner.)
+Where I work, project teams usually consist of two to four developers, one of which also has the role of _project owner_. Being a project owner means tracking project progress, arranging meetings with the client, and also making sure features are ready for development. The suggestions presented in this article are mostly based on my personal experiences as a project owner.
 
 Project progress is tracked using [Trello](https://trello.com). A typical project board looks something like this:
 
 <<BOARD PICTURE>>
+
+[Lists on the board:]
+
+* Backlog
+* Up Next
+* Doing
+* Review
+* Master / Staging
 
 Each card on the board represents a feature. Progress is tracked by moving feature between lists (Trello's name for the columns on a board).
 
@@ -34,13 +42,13 @@ Once this is done, the first available developer simply picks the top card from 
 
 As simple as this sounds, in practice, it is quite hard to think out development steps without actually, well, _developing_ anything. However detailed a feature description may be, starting development on your own means missing an opportunity for discussion.
 
-An hour of talking often results in improved ideas over what had been thought out before. A project owner can explain choices made in the preparation progress. A developer can ask questions and, more importantly, be an active part in the thought process behind the code that eventually needs to be written.
+An hour of talking often results in improved ideas over what has been thought out before. A project owner can explain choices made in the preparation progress. A developer can ask questions and, more importantly, be an active part in the thought process behind the code that eventually needs to be written.
 
 ## Keep getting together
 
-When starting together, work towards clear next steps to take and when to discuss progress. Make these steps actionable (smaller is better) and set a specific time for your next meeting. Ideally, this next meeting should be held after no more than a couple of hours work (e.g. a single morning or afternoon).
+When starting together, work towards clear next steps to take and when to discuss progress. Make these steps actionable (the smaller the better) and plan your next meeting. Ideally, this next meeting should be held after no more than a couple of hours work (e.g. a single morning or afternoon).
 
-In this next meeting, make sure to again define next steps and a next meeting. If progress isn't as good as expected, avoid postponing the meeting. Lack of progress may very well indicate the current direction is not the right one after all -- an issue that needs to be addressed, not ignored.
+In this next meeting, make sure to again define next steps and a next meeting. If progress isn't as good as expected, do not postpone getting together. Lack of progress may very well indicate the current direction is not the right one after all -- an issue that needs to be addressed, not ignored.
 
 Keep iterating until the work is done and ready to move to the next list on the Trello board.
 
@@ -48,20 +56,28 @@ Keep iterating until the work is done and ready to move to the next list on the 
 
 We use Trello's checklists a lot for dividing work into smaller parts. While working on features, we sometimes saw initial five item checklists expand to twenty or even thirty cards.
 
-The first time this happened, we muddled through, anding up with a pull request containg about a hundred commits and thousands of lines of code. This is not good for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
+The first time this happened, we muddled through, anding up with a pull request containing about a hundred commits and thousands of lines of code. This is not good for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
 
 Instead of expanding the feature along the way, consider moving parts of the original feature to new cards. (Trello support this by offering a "Convert to Card" feature for every checklist item.)
 
-This allows you to focus on the core feature at hand, without having to remember some parts are still missing, as Trello is keeping the information for you.
+This allows you to focus on the core feature at hand, with Trello helping you keep track of missing parts to be developed later on.
 
 OUTLINE:
 
 * Create new cards for non-essential functionality
 * Avoid putting multiple cards into a single pull request
 
-## Give feedback priority
+## Give reviews priority
 
+So now we moved our feature from Up Next to Doing, did some work, moved out extra stuff to new cards, and now we're done. The card is moved from Doing to Review. What can the reviewer do to speed things up?
 
+That's easy: give reviews priority over other work. This not only speeds up finishing the current feature, but also ensures next features are built on top of the latest and greatest codebase.
+
+In our workflow, a review is the last step before merging a feature branch into master. While the original feature developer can already start working on a new feature by creating a new branch from the pre-merge master, this is not ideal, as we probably need to rebase that work after merging the previous feature.
+
+Creating a new branch from an unmerged feature branch is another possibility. While this ensures the previous feature is already included, we found this to give all kinds of merging mayhem later on in development, especially when review feedback leads to new commits on the original feature branch. After having dealt with a situation a couple of times, we now avoid this whenever possible.
+
+While doing reviews quickly is a great tool for shortening the feedback loop, I'm not suggesting doing reviews fast-paced just to merge stuff in to master. Do take the time to thoroughly check things before giving the final go (or no go) on a feature.
 
 OUTLINE:
 
