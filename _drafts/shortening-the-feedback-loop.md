@@ -6,45 +6,21 @@ title: Shortening the feedback loop
 {{page.title}}
 ==============
 
-On a project retrospective, we found that the best work we delivered had short feedback loops during the development process. Also, we were least satisfied with work that took a long and lonely road before being reviewed by another person. How can we ensure feedback is at the core of our development process?
+**In a recent project retrospective, we found that the best work we delivered had short feedback loops during the development process. Here's a couple of simple rules for getting feedback early and often.**
 
-A while ago, when talking about software development, a [colleague](http://www.arjanvandergaag.nl) semi-jokingly said:
+This article is about improving _internal_ feedback between developers. Getting timely _external_ feedback from customers (e.g. acceptance testing) can be of equal importance, but lessons on this would be better served in an article of its own.
 
-> Feedback is the currency of software development
+With this out of the way, let's move on straight to rule number one. (I numbered the rules because it looks nice, not because of priority.)
 
-We laughed at the statement's cheesiness, and got back to work.
+## Rule #1: Start together
 
-... something on how this turned out to be pretty much our retrospective conclusion ...
+Where I work, project teams usually consist of two to four developers. One team member also takes on the role of _lead developer_. This includes converting short user stories into more detailed technical feature descriptions. These can then be assigned to developers on the team.
 
-## How we manage projects
+As reasonable as this sounds, separating architecture from development also means missing an opportunity for discussion. As a lead developer I found it quite hard to think out development steps without actually, well, _developing_ anything. And even when I thought I had written out a detailed plan that just couldn't go wrong, in practice, these words still turned out be interpreted differently.
 
-Where I work, project teams usually consist of two to four developers, one of which also has the role of _project owner_. Being a project owner means tracking project progress, arranging meetings with the client, and also making sure features are ready for development. The suggestions presented in this article are mostly based on my personal experiences as a project owner.
+Just half an hour of talking things through often results in improved ideas over what has been thought out before. The lead developer can explain choices made in the preparation progress. The developer building the feature can ask questions and, more importantly, be an active part in the thought process behind the code that eventually needs to be written.
 
-Project progress is tracked using [Trello](https://trello.com). A typical project board looks something like this:
-
-<<BOARD PICTURE>>
-
-[Lists on the board:]
-
-* Backlog
-* Up Next
-* Doing
-* Review
-* Master / Staging
-
-Each card on the board represents a feature. Progress is tracked by moving feature between lists (Trello's name for the columns on a board).
-
-A project owner is responsible to keep the Up Next list populated with features prepared and ready for development. As the project owner is the main contact for the client, he or she usually knows most about the client's domain. This knowledge comes in handy when prioritizing work to be done next (usually together with the client) and turning a high level user story into concrete steps to be taken for development.
-
-Once this is done, the first available developer simply picks the top card from Up Next, put his or her name on it and moves it to Doing.
-
-## Start together
-
-As simple as this sounds, in practice, it is quite hard to think out development steps without actually, well, _developing_ anything. However detailed a feature description may be, starting development on your own means missing an opportunity for discussion.
-
-An hour of talking often results in improved ideas over what has been thought out before. A project owner can explain choices made in the preparation progress. A developer can ask questions and, more importantly, be an active part in the thought process behind the code that eventually needs to be written.
-
-## Keep getting together
+## Rule #2: Keep getting together
 
 When starting together, work towards clear next steps to take and when to discuss progress. Make these steps actionable (the smaller the better) and plan your next meeting. Ideally, this next meeting should be held after no more than a couple of hours work (e.g. a single morning or afternoon).
 
@@ -52,7 +28,7 @@ In this next meeting, make sure to again define next steps and a next meeting. I
 
 Keep iterating until the work is done and ready to move to the next list on the Trello board.
 
-## Move out extra work
+## Rule #3: Move out extra work
 
 We use Trello's checklists a lot for dividing work into smaller parts. While working on features, we sometimes saw initial five item checklists expand to twenty or even thirty cards.
 
@@ -67,7 +43,7 @@ OUTLINE:
 * Create new cards for non-essential functionality
 * Avoid putting multiple cards into a single pull request
 
-## Give reviews priority
+## Rule #4: Give reviews priority
 
 So now we moved our feature from Up Next to Doing, did some work, moved out extra stuff to new cards, and now we're done. The card is moved from Doing to Review. What can the reviewer do to speed things up?
 
