@@ -6,29 +6,33 @@ title: Shortening the feedback loop
 {{page.title}}
 ==============
 
-**In a recent project retrospective, we found that the best work we delivered had short feedback loops during the development process. Here's a couple of simple rules for getting feedback early and often.**
+**In a recent project retrospective, we found that the best work we delivered had short feedback loops during the development process. Here are four lessons for getting feedback early and often.**
 
 This article is about improving _internal_ feedback between developers. Getting timely _external_ feedback from customers (e.g. acceptance testing) can be of equal importance, but lessons on this would be better served in an article of its own.
 
-With this out of the way, let's move on straight to rule number one. (I numbered the rules because it looks nice, not because of priority.)
+With this out of the way, here's lesson number one.
 
-## Rule #1: Start together
+## Lesson 1: Start together
 
 Where I work, project teams usually consist of two to four developers. One team member also takes on the role of _lead developer_. This includes converting short user stories into more detailed technical feature descriptions. These can then be assigned to developers on the team.
 
-As reasonable as this sounds, separating architecture from development also means missing an opportunity for discussion. As a lead developer I found it quite hard to think out development steps without actually, well, _developing_ anything. And even when I thought I had written out a detailed plan that just couldn't go wrong, in practice, these words still turned out be interpreted differently.
+As reasonable as this sounds, separating architecture from development also means missing an opportunity for discussion. As a lead developer I found it quite hard to think out development steps without actually, well, _developing_ anything. And even when I thought I had written out a detailed plan that just couldn't go wrong, in practice, my words still turned out be interpreted differently.
 
-Just half an hour of talking things through often results in improved ideas over what has been thought out before. The lead developer can explain choices made in the preparation progress. The developer building the feature can ask questions and, more importantly, be an active part in the thought process behind the code that eventually needs to be written.
+Just half an hour of talking things through often results in improved ideas over whatever was thought out before. The lead developer can explain choices made in the preparation progress. The developer building the feature can ask questions and, more importantly, be an active part in the thought process behind the code that eventually needs to be written.
 
-## Rule #2: Keep getting together
+## Lesson 2: Keep getting together
 
-When starting together, work towards clear next steps to take and when to discuss progress. Make these steps actionable (the smaller the better) and plan your next meeting. Ideally, this next meeting should be held after no more than a couple of hours work (e.g. a single morning or afternoon).
+Good, so we're off to a great start. We discussed the desired outcome and first steps to take. Let's say that for this particular feature, we decided to use an open source plugin of some sorts to add animated transitions to our application. Getting the plugin up and running should be easy, and we expect to have a first working transition by the end of the morning.
 
-In this next meeting, make sure to again define next steps and a next meeting. If progress isn't as good as expected, do not postpone getting together. Lack of progress may very well indicate the current direction is not the right one after all -- an issue that needs to be addressed, not ignored.
+Unfortunately, things turn out to be not so simple. The plugin's default settings do not work for our particular use case, the documentation is outdated, and we keep getting errors we can't track down. By the end of the morning, we finally have the plugin installed, but we can't demo anything at this point. In a couple of hours more, we should be fine though.
 
-Keep iterating until the work is done and ready to move to the next list on the Trello board.
+What to do at this point? I'm guessing most developers would likely go ahead and hack on to get something working. After all, the idea was to have progress, and we don't have progress at this point, so we simply need to to some extra work to get to that point.
 
-## Rule #3: Move out extra work
+While this is a pretty natural thing to do, we found this to be counterproductive. If you and your co-worker expected something to be done after two hours of work, but in practice, you're not even half way, this may indicate the current approach is not the right one. This is an issue that needs to be addressed, not ignored. And addressing the issue means getting together and talking about it.
+
+We put this into practice by moving from "let's meet again after these steps are finished" to "let's meet every day at 10 AM, 1 PM and 4 PM", regardless of progress.
+
+## Lesson 3: Move out extra work
 
 We use Trello's checklists a lot for dividing work into smaller parts. While working on features, we sometimes saw initial five item checklists expand to twenty or even thirty cards.
 
@@ -43,7 +47,7 @@ OUTLINE:
 * Create new cards for non-essential functionality
 * Avoid putting multiple cards into a single pull request
 
-## Rule #4: Give reviews priority
+## Lesson 4: Give reviews priority
 
 So now we moved our feature from Up Next to Doing, did some work, moved out extra stuff to new cards, and now we're done. The card is moved from Doing to Review. What can the reviewer do to speed things up?
 
