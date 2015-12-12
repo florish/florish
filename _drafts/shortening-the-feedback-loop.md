@@ -34,18 +34,18 @@ We put this into practice by moving from "let's meet again after these steps are
 
 ## Lesson 3: Move out extra work
 
-We use Trello's checklists a lot for dividing work into smaller parts. While working on features, we sometimes saw initial five item checklists expand to twenty or even thirty cards.
+Both previous lessons help avoiding taking the wrong turn without having a mechanism to get back on track. Another form of detour is extra work being added to a feature after development has already begun. Types of extra work we see creeping into a feature include:
 
-The first time this happened, we muddled through, anding up with a pull request containing about a hundred commits and thousands of lines of code. This is not good for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
+* unanticipated extra work needed to get the original feature working;
+* refactoring unrelated code smells you happened to come across;
+* doing the next feature right away, because it builds upon the current one;
+* immediately applying a newly added improvement to other parts of the application.
 
-Instead of expanding the feature along the way, consider moving parts of the original feature to new cards. (Trello support this by offering a "Convert to Card" feature for every checklist item.)
+When working on features, we use checklists a lot for keeping track of the actions needed. While working on features, we sometimes saw initial five item checklists expand to twenty or even thirty items.
 
-This allows you to focus on the core feature at hand, with Trello helping you keep track of missing parts to be developed later on.
+The first time this happened, we muddled through, ending up with a pull request containing over hundred commits and thousands of lines of code. This became unmanageable for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
 
-OUTLINE:
-
-* Create new cards for non-essential functionality
-* Avoid putting multiple cards into a single pull request
+Instead of expanding the feature along the way, we now try to move out any parts of the feature not absolutely necessary to fulfill the original user story. These feature parts become separate features to be developed later. This allows us to focus on the core feature at hand, without having to worry about additional ideas falling through the cracks if we do not implement them right now.
 
 ## Lesson 4: Give reviews priority
 
