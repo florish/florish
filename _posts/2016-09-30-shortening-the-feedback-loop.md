@@ -44,7 +44,7 @@ Instead of expanding the feature along the way, we now try to move out any parts
 
 ## Give reviews priority
 
-So we started our feature, discussed progress, moved out extra stuff, and now we're done. The feature is ready for review. What can a reviewer do to speed things up?
+We started our feature, discussed progress, moved out extra stuff, and now we're done. The feature is ready for review. What can a reviewer do to speed things up?
 
 One answer is this: give reviews priority over other work. This not only speeds up finishing the current feature, but also ensures next features are built on top of the latest and greatest codebase.
 
