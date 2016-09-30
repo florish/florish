@@ -12,7 +12,7 @@ title: Shortening the feedback loop
 
 Where I work, project teams usually consist of two to four developers. One team member also takes on the role of lead developer. This includes converting short user stories into more detailed technical feature descriptions. These are then assigned to developers on the team.
 
-As reasonable as this sounds, separating architecture from development also means missing an opportunity for discussion. As a lead developer, I found it quite hard to think out development steps without actually, well, _developing_ anything. And even when I thought I had written out a detailed plan that just couldn't go wrong, in practice, my words still turned out be interpreted differently.
+As reasonable as this sounds, separating analysis from development also means missing an opportunity for discussion. As a lead developer, I found it quite hard to think out all development steps without actually, well, _developing_ anything. And even when I thought I had written out a detailed plan that just couldn't go wrong, in practice, my words still turned out be interpreted differently.
 
 Our solution was to start with just 15 to 30 minutes of talking things through when starting on a new feature. This allows the lead developer to explain choices made in the preparation progress. The developer building the feature can ask questions and, more importantly, becomes an active part in the thought process behind the code that eventually needs to be written.
 
@@ -22,7 +22,7 @@ Good, so we're off to a great start. We discussed the desired outcome and first 
 
 Unfortunately, things turn out to be not so simple. The plugin's default settings do not work for our particular use case, the documentation is outdated, and we keep getting errors we can't track down. By the end of the morning, we finally have the plugin installed, but we can't demo anything at this point.
 
-What to do at this point? Simple: hack on to get something working. After all, the idea was to have progress, and we don't have progress at this point. We simply need to to some extra work to get to that point.
+What to do at this point? Simple: hack on to get something working. After all, the idea was to have progress, and we don't have progress at this point. We simply need to do some extra work to get to that point.
 
 While this is a pretty natural thing to do, we found this to be counterproductive. If you and your co-worker expected something to be done after two hours of work, but in practice, you're not even half way, this may indicate the current approach is not the right one. This is an issue that needs to be addressed, not ignored. And addressing the issue means getting together and talking about it.
 
@@ -36,7 +36,7 @@ Both previous points help avoid taking wrong turns without having a mechanism to
 * doing the next feature right away, because it builds upon the current one;
 * immediately applying a newly added improvement to other parts of the application.
 
-When working on features, we use checklists a lot for keeping track of the actions needed. While working on features, we sometimes saw initial 3-item checklists expand to 20 or even 30 items.
+When working on features, we use checklists a lot for keeping track of the actions needed. While working on features, we sometimes saw initial 3 item checklists expand to 20 or even 30 items.
 
 The first time this happened, we muddled through, ending up with a pull request containing over hundred commits and thousands of lines of code. This became unmanageable for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
 
@@ -44,7 +44,7 @@ Instead of expanding the feature along the way, we now try to move out any parts
 
 ## Give reviews priority
 
-So we started our feature, discussed progress, moved out extra stuff, and now we're done. The feature is ready for peer review. What can a reviewer do to speed things up?
+So we started our feature, discussed progress, moved out extra stuff, and now we're done. The feature is ready for review. What can a reviewer do to speed things up?
 
 One answer is this: give reviews priority over other work. This not only speeds up finishing the current feature, but also ensures next features are built on top of the latest and greatest codebase.
 
@@ -54,4 +54,8 @@ While doing reviews quickly is a great tool for shortening the feedback loop, I'
 
 ## Conclusion
 
-If you want short feedback loops, start together, stay in touch, move out extra work and give reviews priority. Is that all there is to it? Of course not! There's lots more: pair programming, automated test suites, rapid application development, just to name a few. But comprehensiveness is not the value of these four principles. The value is that they are simple to explain and easy to apply to every feature, every day. So for your next feature, simply start by talking things through with someone, and hopefully you'll be pleasantly surprised.
+If you want short feedback loops, start together, stay in touch, move out extra work and give reviews priority.
+
+Is that all there is to it? Of course not! There's lots more: pair programming, automated test suites, rapid application development, just to name a few. But comprehensiveness is not the value of these four principles.
+
+The value is that they are simple to explain and easy to apply to every feature, every day. So for your next feature, simply start by talking things through with someone, and hopefully you'll be pleasantly surprised.
