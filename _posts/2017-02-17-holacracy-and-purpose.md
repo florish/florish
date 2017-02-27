@@ -18,7 +18,7 @@ As a strategic direction, you decide engineering capacity should be increased. Y
 
 ## Same situation, different approach
 
-Now, let's do this same experiment for a self-managing organization running on Holacracy. I assume familiarity with Holacracy's basic concepts. Otherwise, consider watching [this introduction video](https://www.youtube.com/watch?v=MUHfVoQUj54) to get a quick overview.
+Now, let's do this same experiment for a self-managing organization running on Holacracy. I assume familiarity with Holacracy's basic concepts. Otherwise, consider watching [this animation video](https://www.youtube.com/watch?v=MUHfVoQUj54) or [this talk by Brian Robertson](https://www.youtube.com/watch?v=tJxfJGo-vkI) to get a quick overview.
 
 For the context of this article, we'll focus on the concept of _Lead Link_. In the Holacracy operating system, there is no such thing as a "managing director" or other "manager" or "leader" job titles. Instead, work is divided over circles and roles. Each circle has a purpose and a special role called Lead Link. One of the Lead Link's responsibilities is to ensure the circle is working towards its purpose.
 
