@@ -6,7 +6,7 @@ title: Holacracy and purpose
 {{page.title}}
 ==============
 
-**In Holacracy and other self-management paradigms, purpose is seen as a core concept. But what makes purpose so vital for self-managing organizations, and why should you care?**
+**In Holacracy, purpose is seen as the core concept around which everything else revolves. But what makes purpose so vital for a self-managing organization, and why should you care?**
 
 ## A thought experiment
 
