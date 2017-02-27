@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Holacracy & Purpose
+title: Holacracy and purpose
 ---
 
 {{page.title}}
 ==============
 
-**In Holacracy and other self-management paradigms, much attention is given to purpose as a concept around which everything else revolves. But what makes purpose so vital for self-managing organizations, and why should you care?**
+**In Holacracy and other self-management paradigms, purpose is seen as a core concept. But what makes purpose so vital for self-managing organizations, and why should you care?**
 
 ## A thought experiment
 
@@ -42,7 +42,7 @@ As said earlier, as a company's top-most Lead Link, you are accountable for disc
 
 Make no mistake: these are tough questions to answer! Holacracy acknowledges this, and also assumes purpose not to be defined once and never changed, but as evolutionary. Over time, given new information, an organization's purpose will change, and as Lead Link, you may (and should) update the purpose when needed.
 
-# Sizing it up
+## Sizing it up
 
 Time to go back to our thought experiment. While we never mentioned anything about purpose, we did mention three other concepts: strategy, project and action. Each of these can be seen as part of another. Arranged from small to large, this gives us the following sequence:
 
