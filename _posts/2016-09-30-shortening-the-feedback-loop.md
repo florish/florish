@@ -3,9 +3,6 @@ layout: post
 title: Shortening the feedback loop
 ---
 
-{{page.title}}
-==============
-
 **Getting feedback early and often during software development often leads to great results. But how can we make this happen every single time? Here's four ways how: start together, stay in touch, move out extra work, and give reviews priority.**
 
 ## Start together

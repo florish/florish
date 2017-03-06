@@ -3,9 +3,6 @@ layout: post
 title: Back to the feature
 ---
 
-{{page.title}}
-==============
-
 **Step one in a code review: read the code. But what if I told you your review results might improve by prepending a "feature review" step?**
 
 Where I work, everybody requests and conducts code reviews. Lately, I noticed my review results differ from the results I get back from co-workers. Most prominently, in my reviews I seem to put:
@@ -73,8 +70,6 @@ This is also illustrated in the example. The feature review suggests separating 
 ## Conclusion
 
 While a code review may suggest it is about code _only_, such a limited perspective can lead to optimized code that does not work well for end users. Avoid this trap by first reviewing a feature from and end user perspective. Play around and check if everything feels right and works as expected. If so, go ahead and dive into the code for further inspection. If not, fix the feature first -- and the code later.
-
-_{{ page.date | date: '%B %e, %Y' }}_
 
 
 [wikipedia]: https://en.wikipedia.org/wiki/Code_review
