@@ -3,9 +3,6 @@ layout: post
 title: A sense of purpose
 ---
 
-{{page.title}}
-==============
-
 **How two seeminglingly unrelated experiences helped discover a personal purpose.**
 
 ## At work
