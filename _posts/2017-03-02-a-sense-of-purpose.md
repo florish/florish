@@ -10,11 +10,11 @@ title: A sense of purpose
 
 ## At work
 
-Where I work, we follow a set of self-management principles. One of my responsibilities is to periodically determine a strategic focus for one particular department.
+Where I work, one of my responsibilities is to periodically determine a strategic focus for the department I lead.
 
-Shortly after I had communicated a new strategy, our company owner and founder came to me. He asked me to change part of the strategy into something else. I refused on the grounds of seeing it my way. He pressed on the grounds of seeing it his way.
+Shortly after communicating a new strategy, our company owner and founder came to me. He asked me to change part of the strategy into something else. I refused, not seeing the added value. He pressed, seeing the requested change as absolutely necessary. I got angry and frustrated, he got angry and frustrated.
 
-I got angry and frustrated, he got angry and frustrated. After cooling down somewhat, we came to a point of agreeing to disagree.
+After cooling down somewhat, we came to a point of agreeing to disagree.
 
 ## At home
 
@@ -38,8 +38,8 @@ At work, I assumed autonomy on strategic decisions for the department I was resp
 
 At home, I wanted autonomy on how our home was organized. And I demanded respect from my kids by refusing them dinner until they did what I wanted. By doing this, however, I forgot to respect the autonomy my kids might want in when and how to clean up the room.
 
-So in both situations I wanted autonomy. On sensing I could not have it, I tried to demand it by disrespecting someone else's autonomy. At work, this did not help me. At home, it did, but I felt bad.
+In both situations I wanted autonomy. On sensing I could not have it, I tried to demand it by disrespecting someone else's autonomy. At work, this did not help me. At home, it did, but I felt bad.
 
 How to avoid this pattern of demand and disrespect? To truly receive respect for my own autonomy, I need to truly respect other people's autonomy. This means taking an effort to understand other people's needs, and to communicate my own needs and values as respectfully as I can.
 
-Simple as it sounds, this may very well take me a lifetime to master.
+So: autonomy and respect, simple as that. Only thing left is to master the art of _not_ demanding it :)
