@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A sense of purpose
+title: Autonomy and respect
 ---
 
-**How two seeminglingly unrelated experiences helped discover a personal purpose.**
+**How two seemingly unrelated experiences revealed two personal values.**
 
 ## At work
 
