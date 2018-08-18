@@ -163,7 +163,7 @@ hr {
     word-wrap:normal;
   }
 }
-*/
+
 
 @media print, screen and (max-width: 480px) {
   body {
@@ -173,6 +173,17 @@ hr {
 
   header ul {
     display:none;
+  }
+}
+
+@media print, screen and (max-width: 350px) {
+  .profiles {
+    top: -15px;
+    text-align: right;
+    font-size: 0.9em;
+  }
+  .profiles a {
+    display: block;
   }
 }
 
