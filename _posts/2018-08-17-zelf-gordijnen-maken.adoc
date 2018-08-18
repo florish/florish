@@ -1,8 +1,11 @@
 = Zelf gordijnen maken
+:toc: macro
+:toc-title:
 
-*Afgelopen zomer heeft mijn schoonmoeder me geholpen om zelf gordijnen
+[.lead]
+Afgelopen zomer heeft mijn schoonmoeder me geholpen om zelf gordijnen
 te maken. Voor iedereen die géén schoonmoeder heeft, of het niet durft
-te vragen, hier stap voor stap uitleg hoe dit aan te pakken.*
+te vragen, hier stap voor stap uitleg hoe dit aan te pakken.
 
 Een dikke disclaimer vooraf: ik heb in totaal één keer zelf gordijnen
 gemaakt en ben dus zeker geen expert! Ook is mij inmiddels duidelijk dat
@@ -11,16 +14,9 @@ voor- en nadelen. Dit stappenplan heb ik geschreven en getekend op basis
 van mijn eigen ervaringen, in de hoop dat iemand anders er iets aan
 heeft.
 
-Laat ik dan vooraf ook maar vast eerlijk zeggen dat zelf gordijnen maken
-best wel een klus is. Zeker als je zoals ik nog niet veel ervaring met
-de naaimachine hebt, is het fijn als je af en toe iemand hebt die met je
-meekijkt en je verder helpt als je even niet weet hoe verder.
+Alle stappen op een rij (klik om direct naar een stap te navigeren):
 
-Mocht je vragen hebben, stel ze ook vooral, bijvoorbeeld via Twitter, of
-doe eens gek en gebruik LinkedIn. Ik zal je vraag dan doorsturen naar
-mijn schoonmoeder.
-
-Daar gaan we dan!
+toc::[]
 
 == Benodigdheden vooraf
 
@@ -50,7 +46,11 @@ routine kunt:
 Voor het gordijn gebruik je alleen een rechte steek (geen zigzag of
 andere specifieke steken).
 
-Alles in orde? Dan gaan we nu écht aan de slag.
+=== Geduld
+
+Laat ik dan vooraf ook maar vast eerlijk zeggen dat zelf gordijnen maken best wel een klus is. Zeker als je zoals ik nog niet veel ervaring met de naaimachine hebt, kan het af en toe wel even doorbijten zijn. Mocht je daarom vragen hebben, stel ze ook vooral, bijvoorbeeld via Twitter.footnote:[of doe eens gek en gebruik LinkedIn] Ik zal je vraag dan doorsturen naar mijn schoonmoeder.
+
+Goed, nu dan echt aan de slag... eerste stap: meten!
 
 == Hoeveelheid stof berekenen
 
@@ -176,14 +176,16 @@ wat gordijnstof en een gordijnrunner mee (het oog waar de haak in moet).
 Het kan ook helpen om foto’s van de gehele gordijnrail bij de hand te
 hebben.
 
-== Stof op maat knippen
+== Gordijnstof bewerken
+
+=== Stof op maat knippen
 
 * Knip in banen van gelijke lengte
 * Bij stof met een herhalend patroon: zorg dat elke baan op dezelfde
 plek in het patroon begint. Dit oogt rustiger en werkt makkelijker
 later.
 
-== Banen aan elkaar naaien
+=== Banen aan elkaar naaien
 
 * Leg naden tegen elkaar aan
 * Naai niet in de zelfkanten, maar iets er voorbij
@@ -191,13 +193,13 @@ later.
 * Afspelden langs de naad
 * Afstikken
 
-== Zijkanten afwerken
+=== Zijkanten afwerken
 
 * Vouw de zelfkanten dubbel om
 * Afspelden
 * Afstikken op enkele mm van de binnenrand
 
-== Onderkanten afwerken
+=== Onderkanten afwerken
 
 * Bepaal hoeveel cm je hebt als je rekening houdt met zoom zo dik als
 gordijnband aan bovenkant
@@ -205,32 +207,37 @@ gordijnband aan bovenkant
 * Vouw dubbel om en speld af
 * Afstikken
 
-== Voering klaarmaken
+== Voering toevoegen
 
-Als je zoals ik een apart stuk stof als voering hebt, dien je deze stof
-ook eerst klaar te maken volgens dezelfde stappen als hierboven:
+Misschien heb je verduisterende stof gekocht. Zo ja, sla dit stuk dan over. Zoo nee, dan zul je aparte voering moeten maken om je gordijnen verduisterend te maken.
+
+=== Voering op maat maken
+
+Bewerk eerst de voering volgens dezelfde stappen als de gordijnstof:
 
 * Stof op maat knippen (maar 10-20 cm korter dan de gordijnstof, omdat
 de voering niet onder het gordijn uit moet komen)
-* Banen aan elkaar naaien
+* Banen aan elkaar naaien (maak de overlap eventueel iets groter, zodat de totale breedte iets kleiner is dan van de gordijnstof)
 * Zijkanten afwerken
 * Onderkanten afwerken
 
-== Voering en gordijnstof aan elkaar maken
+=== Voering en gordijnstof aan elkaar maken
 
 * Bepaal de benodigde zoombreedte: breedte gordijnband plus nog 1-2 cm
 * Leg de gordijnstof en voering met de mooie kanten tegen elkaar aan
 * Speld af op breedte gordijnband
 * Afstikken
 
-== Gordijnband bevestigen
+== Band, plooien en haken
+
+=== Gordijnband bevestigen
 
 * Klap de voering over de gordijnstof heen naar de achterkant
 * Leg gordijnband langs de bovenkant tussen voering en gordijnband
 * Afspelden
 * Afstikken (ook de hoeken om!)
 
-== Plooien maken
+=== Plooien maken
 
 Een gordijn heeft plooien. Je hebt gordijnen met enkele en dubbele
 plooien. Voor deze gordijnen maken we enkele plooien.
@@ -310,25 +317,15 @@ hierover in de volgende sectie.
 
 === Afspelden
 
-* Maak de eerste plooi en speld af
-* Meet de eerste tussenruimte
-* Maak de tweede plooi en speld af
-* etcetera
+1. Maak de eerste plooi en speld af
+2. Meet de eerste tussenruimte
+3. Maak de volgende plooi en speld af
+4. Meet de volgende tussenruimte
+5. Herhaal stap 3 en 4 totdat de stof op is
 
-Tip: meet als je bezig bent met afspelden af en toe hoeveel gordijn je
-nog over hebt. Als je op 1/4 bent, check dan of je inderdaad nog
-ongeveer 3/4 van de oorspronkelijke stof over hebt (of eigenlijk:
-oorspronkelijke stofbreedte - 4x plooibreedte - 3x tussenruimte). Doe
-dit ook als je op de helft bent. Zo voorkom je dat je er helemaal aan
-het eind achterkomt dat je al je spelden er weer uit mag halen.
+Tip: meet als je bezig bent met afspelden af en toe hoeveel gordijn je nog over hebt. Als je op 1/4 bent, check dan of je inderdaad nog ongeveer 3/4 van de oorspronkelijke stof over hebt (of eigenlijk: oorspronkelijke stofbreedte - 4x plooibreedte - 3x tussenruimte). Doe dit ook als je op de helft bent. Zo voorkom je dat je er helemaal aan het eind achterkomt dat je al je spelden er weer uit mag halen.
 
-Het is verder prima om halverwege wat te gaan corrigeren met afstanden.
-Een gordijn hangt in de praktijk nooit helemaal strak. In de praktijk
-zie je het daarom echt niet als de tussenruimten halverwege het gordijn
-een centimeter minder worden. Mijn voorkeur heeft het om met de
-tussenruimten te spelen, omdat verschillen in plooidikte iets
-duidelijker zichtbaar zijn als de gordijnen open zijn en naast het raam
-hangen.
+Het is verder prima om halverwege wat te gaan corrigeren met afstanden. Een gordijn hangt in de praktijk nooit helemaal strak. In de praktijk zie je het daarom echt niet als de tussenruimten halverwege het gordijn een centimeter minder worden. Mijn voorkeur heeft het om met de tussenruimten te spelen, omdat verschillen in plooidikte iets duidelijker zichtbaar zijn als de gordijnen open zijn en naast het raam hangen.
 
 === Afstikken
 
@@ -348,18 +345,16 @@ is.
 * Verwijder de speld(en) en de haak.
 * Ga verder met de volgende plooi.
 
-Omdat je bij elke plooi twee keer heen en weer gaat voor extra
-versteviging, ga je onvermijdelijk een keer te ver terug, of net niet
-ver genoeg. Tot enkele millimeters ga je hier niet iets van zien. Werk
-op lage snelheid voor extra precisie.
+Omdat je bij elke plooi twee keer heen en weer gaat voor extra versteviging, ga je onvermijdelijk een keer te ver terug, of net niet ver genoeg. Tot enkele millimeters ga je hier niet iets van zien. Werk op lage snelheid voor extra precisie.
 
-== Het eindresultaat
+=== Haken bevestigen
 
-Gesteld dat de gordijnrails al netjes hangenlink:#footnote-1[1], is dit
-de simpelste stap. Een kwestie van de gordijnhaken aan de stof
-bevestigen en daarna de gordijnen aan de runners.
+Als alle plooien erin zitten, bevestig dan de haken door ze achter de stiknaden te steken. Zorg dat ze stevig zitten zonder dat je de naad uitrekt.
 
-Hoera, je bent klaar!
+== Gordijnen ophangen
 
-1: Het bevestigen van gordijnrails valt buiten de scope van dit artikel
-— het leek me al lang zat :)
+Gesteld dat de gordijnrails al netjes hangenfootnote:[Het bevestigen van gordijnrails valt buiten de scope van dit artikel], is dit de simpelste (en leukste!) stap. Haak de gordijnhaken in de gordijnrunners, doe een paar stappen achteruit, en bewonder het resultaat van al het werk dat je hebt gedaan.
+
+== Tot slot
+
+Dank voor het helemaal lezen van dit uitgebreide stappenplan. Ik hoop dat je iets hebt gehad aan deze uitleg. Mocht je aan de slag gaan: heel veel succes met het zelf maken van je gordijnen. Tips, vragen, en andere reacties zijn uiteraard welkom!
