@@ -47,7 +47,7 @@ Dit hele artikel gebruikt mijn eigen project als voorbeeld, dus ook voor de maat
 
 TODO: TEKENING
 
-=== Benodigde breedte bepalen
+=== Benodigde breedte
 
 De benodigde breedte van de gordijnen is de horizontale afstand die ze minimaal moeten kunnen overbruggen als ze gesloten zijn.
 
@@ -57,7 +57,7 @@ In mijn geval hangen al gordijnrails die ik kan hergebruiken. Totale raillengte 
 
 Mijn gordijnen moeten in totaal dus minimaal 280 cm breed zijn.
 
-=== Benodigde hoogte bepalen
+=== Benodigde hoogte
 
 Met de hoogte van de gordijnen bedoel ik de verticale afstand die de gordijnen moeten overbruggen. In mijn geval wil ik het hele raam afdekken tot over de vensterbank, maar niet de verwarming eronder.
 
@@ -69,7 +69,7 @@ Hoeveel stof je voor deze zomen nodig hebt is deels afhankelijk van het gekozen 
 
 Nu we breedte en hoogte hebben, kunnen we de benodigde hoeveelheid stof bepalen.
 
-=== Aantal meters stof bepalen
+=== Aantal meters stof
 
 Stof koop je per meter in de lengte. Maar hoe breed is één meter stof eigenlijk? Dat wisselt per type stof en per fabrikant. De meest gangbare breedtes zijn 140 cm en 150 cm. Met deze waarden kun je dan ook veilig rekenen hoeveel stof je moet aanschaffen.
 
