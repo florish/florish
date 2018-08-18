@@ -1,0 +1,2 @@
+asciidoctor:
+  template_dir: _templates
