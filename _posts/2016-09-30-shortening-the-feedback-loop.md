@@ -27,15 +27,15 @@ One way to put this into practice is by moving from "let's meet again after thes
 
 ## Move out extra work
 
-Both previous points help avoid taking wrong turns without having a mechanism to get back on track. Another possible detour is extra work being added to a feature after development has already begun. Some example of extra work we've seen creeping in:
+Both previous points help avoid taking wrong turns without having a mechanism to get back on track. Another possible detour is extra work being added to a feature after development has already begun. Some examples of extra work we've seen creeping in:
 
 * refactoring unrelated code smells you happened to come across;
 * doing the next feature right away, because it builds upon the current one;
 * immediately applying a newly added improvement to other parts of the application.
 
-When working on features, we use checklists a lot for keeping track of the actions needed. While working on features, we sometimes saw initial 3 item checklists expand to 20 or even 30 items.
+When working on features, we use checklists for keeping track of the actions needed. While working on features, we sometimes saw initial 3 item checklists expand to 20 or even 30 items.
 
-The first time this happened, we muddled through, ending up with a pull request containing over hundred commits and thousands of lines of code. This became unmanageable for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
+The first time this happened, we muddled through, ending up with a pull request containing over a hundred commits and thousands of lines of code changes. This became unmanageable for all kinds of reasons, one being that reviewing such a large amount of code is difficult to do.
 
 Instead of expanding the feature along the way, we now try to move out any parts of the feature not absolutely necessary to fulfill the original user story. These parts become separate features to be developed later. This allows us to focus on the core feature at hand, without having to worry about things falling through the cracks if we do not implement them right now.
 
@@ -45,7 +45,7 @@ We started our feature, discussed progress, moved out extra stuff, and now we're
 
 One answer is this: give reviews priority over other work. This not only speeds up finishing the current feature, but also ensures next features are built on top of the latest and greatest codebase.
 
-In our Git workflow, a review is the last step before merging a feature branch back into. The longer a feature branch exists alongside master, the more chance you have for merge conflicts, difficult rebase situations and other kinds of merging mayhem. With multiple features in development simultaneously, this problem only get worse.
+In our Git workflow, a review is the last step before merging a feature branch back into. The longer a feature branch exists alongside master, the more chance you have for merge conflicts, difficult rebase situations and other kinds of merging mayhem. With multiple features in development simultaneously, this problem only gets worse.
 
 While doing reviews quickly is a great tool for shortening the feedback loop, I'm not suggesting doing reviews fast-paced just to merge stuff in to master. Do take the time to [check things thoroughly]({% post_url 2015-10-10-back-to-the-feature %}) before giving the final go (or no go) on a feature.
 
@@ -53,6 +53,6 @@ While doing reviews quickly is a great tool for shortening the feedback loop, I'
 
 If you want short feedback loops, start together, stay in touch, move out extra work and give reviews priority.
 
-Is that all there is to it? Of course not! There's lots more: pair programming, automated test suites, rapid application development, just to name a few. But comprehensiveness is not the value of these four principles.
+Is that all there is to it? Of course not! There's lots more: pair programming, automated test suites, rapid application development, just to name a few. But comprehensiveness is not the value of this set of four principles.
 
 The value is that they are simple to explain and easy to apply to every feature, every day. So for your next feature, simply start by talking things through with someone, and hopefully you'll be pleasantly surprised.
