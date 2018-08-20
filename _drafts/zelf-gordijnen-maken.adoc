@@ -194,16 +194,17 @@ Het vervolg van deze sectie gaat uit van individueel in te naaien plooien.
 
 Voorbeeld:
 
-* 1 gordijn is 310 cm.
+* 1 gordijn is 320 cm.
 * Helft van de gordijnrail is 140 cm.
-* Ik mag dus 310 - 140 = 170 cm aan plooien maken.
-* Ik had precies 30 gordijnhaken, betekent 15 per gordijn.
+* Ik houd 150 cm aan voor gordijnbreedte om veilig te zitten.
+* Ik mag dan 320 - 150 = 170 cm aan plooien maken.
+* Ik had precies 30 gordijnhaken ove van oude gordijnen, dit betekent 15 per gordijn.
 * Als ik maximaal 170 cm aan plooien mag maken, betekent dit maximaal
 170 / 15 = 11,3 cm per plooi.
 
-Ik heb 11 centimeter aangehouden om aan de veilige kant te zitten en 155 cm gordijn over te houden. 11 centimer per plooi betekent overigens dat de plooi 11 / 2 = 5,5 cm uitsteekt, omdat je de stof dubbelvouwt.
+Ik heb 11 centimeter aangehouden. Ik zal dan ± 155 cm gordijn overhouden. 11 centimer per plooi betekent overigens dat de plooi 11 / 2 = 5,5 cm uitsteekt, omdat je de stof dubbelvouwt.
 
-Het idee is hierbij om te beginnen en te eindigen met een plooi, omdat het gordijn dan het mooiste hangt:
+Dan de tussenruimten. Het idee is hierbij om te beginnen en te eindigen met een plooi, omdat het gordijn dan het mooiste hangt:
 
 * 15 plooien betekent dan dus 14 ruimten tussen de plooien.
 * 155 / 14 = 11,1 cm per tussenruimte. Ook hier heb ik voor het gemak 11
