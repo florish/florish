@@ -107,7 +107,7 @@ hr {
   margin:0 0 20px;
 }
 
-.lead {
+.paragraph.lead, .paragraph.lead p {
   font-weight: bold;
 }
 
