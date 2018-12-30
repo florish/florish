@@ -175,16 +175,13 @@ hr {
 
 @media print, screen and (max-width: 480px) {
   body {
-    font-size: 14px;
     padding: 15px 0;
   }
 
   header ul {
     display:none;
   }
-}
 
-@media print, screen and (max-width: 350px) {
   .profiles {
     top: -15px;
     text-align: right;
@@ -192,6 +189,12 @@ hr {
   }
   .profiles a {
     display: block;
+  }
+}
+
+@media print, screen and (max-width: 350px) {
+  body {
+    font-size: 14px;
   }
 }
 
