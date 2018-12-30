@@ -1,0 +1,5 @@
+= Alpenhumor
+
+[.text-center]
+image:/images/alpenhumor-1.png[alt=Zegt de ene alp tegen de andere...,width=368]
+image:/images/alpenhumor-2.png[alt=Laten we elkaar geen dolomietje noemen,width=368]
