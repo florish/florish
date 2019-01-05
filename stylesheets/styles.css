@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700|Zilla+Slab:300,300i,700');
 
 body {
   padding:50px 5px;
-  font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:18px/1.5 "Zilla Slab", serif;
   color:#222;
   font-weight:300;
 }
@@ -10,6 +10,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+
 }
 
 p, ul, ol, table, pre, dl {
@@ -17,11 +20,14 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2, h3 {
-  line-height:1.1;
+  line-height: 1.1;
 }
 
 h1 {
   font-size: 2em;
+}
+header h1 {
+  font-weight: 300;
 }
 
 h2 {
@@ -34,7 +40,6 @@ h3, h4, h5, h6 {
 
 a {
   color:#39c;
-  font-weight:400;
   text-decoration:none;
 }
 
@@ -115,12 +120,12 @@ hr {
   text-align:center;
 }
 
-/*footer {
-  width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-}*/
+.columns {
+  display: grid;
+  grid-column-gap: 2em;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
 
 /*@media print, screen and (max-width: 960px) {*/
 
@@ -134,12 +139,12 @@ hr {
     margin-right: auto;
   }
 
-  .profiles {
+  .about {
     position: absolute;
     top: 0.8em;
     right: 0;
   }
-  .profiles a {
+  .about a {
     margin-left: 0.5em;
   }
 
@@ -178,17 +183,11 @@ hr {
     padding: 15px 0;
   }
 
-  header ul {
-    display:none;
-  }
-
-  .profiles {
-    top: -15px;
-    text-align: right;
-    font-size: 0.9em;
-  }
-  .profiles a {
+  .columns {
     display: block;
+  }
+  .columns__column {
+    margin-bottom: 27px;
   }
 }
 
