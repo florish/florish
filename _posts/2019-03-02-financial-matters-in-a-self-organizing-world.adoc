@@ -1,0 +1,60 @@
+= Financial matters in a self-organizing world
+
+[.lead]
+Any company has to deal with financial matters. This is no different when practicing self-organization – albeit in a more agile, dynamic way.
+
+The company where I currently work decided to become self-organizing – the company is using the term “self-steering” – in early 2017. As the company already existed for almost two decades, financial procedures were already in place. The company largely continued using what they had. Two years later, we are discovering those pre-self-steering processes to no longer be as helpful as they used to be.
+
+== Yearly budgets
+
+The company is organized in teams. Those traditionally create financial budgets per calendar year. Around November, teams calculate their budget for next year, split into twelve months. All team budgets together lead to a budgeted company-wide result. During the next year, actual results are compared to these original budgets, both for the whole company and per team.
+
+With self-organization, however, things tend to be a bit more dynamic than in traditional management organization. In the pre-2017 situation, with more-or-less fixed teams, the company would only experience a bigger organization change every five years or so. A year-to-year budget review was a pretty workable solution back then.
+
+In our current situation, we see new teams coming into existence throughout the year, teams considering to split up, and teams coming to the end of their life cycle. Reviewing a budget once a year suddenly does not fit anymore, as any of the above changes effectively renders the existing company-wide budget useless.
+
+One could recalculate the budget in case of bigger changes, but this leaves lots of room for interpretation: how big a change is big enough for a budget review? Any change then needs to be evaluated in the moment. This means change is still not seen as a given, but as an interruption of a stable situation.
+
+To be clear: I am not questioning the intent of yearly budgeting. As a base method, however, it simply does not seem to fit the dynamics of the organization anymore. In a self-steering organization, change is something that happens all the time, not once a year.
+
+== Rolling forecasts
+
+Should we then just stop making budgets altogether? No! A forecast for the upcoming months still has value, especially if all teams do it, and the combined results are transparently shared. Without those forecasts, the organization would be in the dark of any anticipated financial effects of team plans. That would be no-steering instead of self-steering.
+
+Luckily, there is an alternative to fixed yearly budgets: rolling forecasts. At regular intervals, for example every month, every team updates their forecast for the upcoming period based on what they know at that point. This can be the upcoming three months, or a whole year, depending on the dynamics of both the organization and the market they operate in.
+
+All team-level forecasts are shared and combined into a company-wide forecast for the same upcoming period. This forecast is also shared transparently with all organization members. This transparency is needed so that everybody in the organization is able to make informed financial decisions. This can be any decision, from spending € 2 or € 5 on an extension cable to spending € 200,000 or € 500,000 on decorating a new office.
+
+== Financial health
+
+With these first euro amounts mentioned, we are touching an interesting point: with the above information shared transparently, what exactly marks a forecast as either “good” or “bad”?
+
+The honest answer is: it depends. The reason the organization is keeping an eye on financial metrics, is to ensure the organization’s financial health is good enough to be able to provide value to the world. Any number above the lower boundary of “financialIy healthy” thus qualifies as “good”.
+
+But how to determine that boundary for financial health? We could measure absolute € amounts here (for profit, turnover, costs, available cash, etc.), but as with fixed yearly budgets, any such number would pretty soon be useless due to the organization constantly changing. Instead, any € amount should relate to something else: € turnover in relation to € costs, € turnover in relation to current FTE working in the organization, € available cash in relation to monthly running costs, and so on.
+
+As with the time period for rolling forecasts, the exact set of numbers used depends on the organization and its context. The important point here is to use relative numbers, so that the metrics automatically adjust if the organization is changing (which it is, constantly!).
+
+And even then, the numbers defined as boundaries for financial health need to be reviewed regularly. About to move to a new office? The company may need more cash than in other situations. Had a very profitable period? Teams may decide to use the current period for doing investments, allowing a decrease in profitability for the company as a whole.
+
+There are no fixed answers here, exact numbers all depend on time and context.
+
+== Actual results
+
+With rolling forecasts and benchmarks for financial health in place, we need one extra ingredient: the actual results. It is great to periodically update forecasts and financial boundaries, but without measuring the actual results achieved, we are not closing the feedback loop.
+
+In a self-steering organization, quickly having and sharing the actual results after a period ends (e.g. a week, month, quarter, year) feels even more important than in a traditional management organization. The shorter the feedback loop, the sooner people can use the information when making financial decisions impacting future financial results.
+
+And as everybody now makes these decisions – not just board members or managers – we better make sure that those decisions are based on the best information possible.
+
+== The bigger picture
+
+The company mentioned in this article is in the process of transitioning from fixed yearly budgets to rolling forecasts, dynamic benchmarks and quickly sharing actual results. These changes are part of the broader transition to self-organization.
+
+Generally speaking, becoming a self-steering organization is a process of accepting complexity. In a self-steering organization, we simply accept that reality is too complex to be predicted and controlled. Instead, we prefer to sense and respond: having a keen sense of where we are now and being able to have open conversations to dynamically adjust direction when needed.
+
+This also applies to finance. Traditional financial procedures try to predict and control the future using long-term budgets and evaluating results against those budgets. In self-steering, predict and control is largely replaced with measure (sense) and adjust (respond).
+
+There is also an analogy with software development, the core activity of the company. Software development has seen a transition from mostly fixed “waterfall” to more flexible “agile” projects. At its core, agile software development consists of iterative build-measure-learn cycles: build working software, measure how well it works, and learn from that when planning new features to be built. For finance, once could say we are moving from “waterfall finance” to “agile finance”: from long-term predict and control to iterative spend and earn (“build”), review (“measure”), forecast (“learn”) cycles.
+
+And just like agile software development feels like a natural fit for a self-steering organization, somehow agile finance feels like a natural fit too. It can be rough at times, just like agile software development can be hard, and it surely takes some getting used to coming from traditional financial procedures. But in the end, it just makes sense to stop trying to predict and control the future and let here and now be our guide to greater heights.
