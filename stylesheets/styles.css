@@ -127,35 +127,31 @@ hr {
   grid-template-columns: 1fr 1fr;
 }
 
-/*@media print, screen and (max-width: 960px) {*/
+header, section, footer {
+  float:none;
+  position: relative;
+  width:auto;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.about {
+  position: absolute;
+  top: 0.8em;
+  right: 0;
+}
+.about a {
+  margin-left: 0.5em;
+}
 
-  header, section, footer {
-    float:none;
-    position: relative;
-    width:auto;
-    max-width: 750px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+section {
+  border:1px solid #e5e5e5;
+  border-width:1px 0;
+  padding:20px 0;
+  margin: 0 auto 20px;
+}
 
-  .about {
-    position: absolute;
-    top: 0.8em;
-    right: 0;
-  }
-  .about a {
-    margin-left: 0.5em;
-  }
-
-  section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin: 0 auto 20px;
-  }
-
-/*}*/
 
 @media print, screen and (max-width: 720px) {
   body {
