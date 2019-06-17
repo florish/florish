@@ -3,13 +3,30 @@ layout: default
 title: Floris Huetink
 ---
 <section>
-  <h1>Posts</h1>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="columns">
+    <div class="columns__column">
+      <h1>Posts</h1>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="columns_column">
+      <h1>Shows</h1>
+      {% for show in site.data.shows %}
+        <p>
+          <strong>{{ show.title }}</strong><br>
+          {{ show.date }} • {{ show.location }}<br>
+          {% for link in show.links %}
+            <a href="{{ link.url}}" target="_blank">{{ link.title }}</a>
+          {% endfor %}
+          <br>
+        </p>
+      {% endfor %}
+    </div>
+  </div>
 </section>
 
