@@ -131,6 +131,10 @@ hr {
   grid-template-columns: 1fr 1fr;
 }
 
+.post__date {
+  margin-top: 20px;
+}
+
 header, section, footer {
   float:none;
   position: relative;
