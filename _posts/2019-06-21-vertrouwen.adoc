@@ -3,22 +3,25 @@
 [.lead]
 Een half jaar geleden schreef ik een artikel over richting en vertrouwen als basis voor zelfsturing. Sindsdien ben ik daar anders naar gaan kijken.
 
-In het artikelfootnote:[https://enrise.com/2018/12/de-basis-van-zelfsturing-is-richting-en-vertrouwen/[De basis van zelfsturing is richting en vertrouwen,window=_blank]] staan twee begrippen centraal: richting en vertrouwen. De laatste maanden merk ik dat het begrip richting naar de achtergrond is verdwenen. Als er onderling vertrouwen is, dan lijkt van alles mogelijk en ontstaat een hoop beweging. En die beweging lijkt op een of andere manier vanzelf een richting op te gaan die door betrokkenen als positief ervaren wordt.
+Het artikelfootnote:[https://enrise.com/2018/12/de-basis-van-zelfsturing-is-richting-en-vertrouwen/[De basis van zelfsturing is richting en vertrouwen,window=_blank]] benoemt twee begrippen als basis onder een zelfsturende organisatie: richting en vertrouwen. Een zelfsturende organisatie heeft een duidelijke richting nodig voor de lange termijn en de betrokken mensen moeten op basis van vertrouwen met elkaar samenwerken.
+
+Toen ik het artikel schreef was het bovenstaande voor mij absoluut waar. Nu – een paar maanden later – merk ik echter dat het begrip richting bijna is verdwenen. Vanuit vertrouwen ontstaan mogelijkheden, creativiteit en beweging. En die beweging lijkt op een of andere manier vanzelf een richting op te gaan die door betrokkenen als positief ervaren wordt.
 
 Laat ik dit concreet maken met een voorbeeld. Het team waarin ik werk maakt software en genereert al jarenlang op twee manieren inkomsten. We hebben een product met maandelijkse abonnementen en we doen projecten die op uurbasis betaald worden.
 
-Langzamerhand kregen we door dat deze twee takken van sport elkaar meer in de weg zaten dan elkaar hielpen. Het projectwerk had vaak hardere deadlines dan doorontwikkeling aan ons eigen product, waardoor doorontwikkeling van het product uitgesteld werd. Ondertussen moest dat product wel in de lucht blijven, wat vaak spoed had en daardoor afleidde van het projectwerk. Ook begonnen mensen dit ondersteunende werk voor ons product met wat tegenzin te doen, omdat ze wisten dat de onderliggende software eigenlijk al vernieuwd had moeten worden.
+Langzamerhand kregen we door dat deze twee takken van sport elkaar meer in de weg zaten dan elkaar hielpen. Het projectwerk had vaak hardere deadlines dan doorontwikkeling aan ons eigen product, waardoor dit laatste uitgesteld werd. Ondertussen moest datzelfde product wel continu blijven werken, waarbij acute verstoringen zorgden voor onderbreking van het projectwerk. Het oplossen van deze verstoringen begonnen mensen daarbij met wat tegenzin te doen, omdat ze wisten dat de onderliggende software eigenlijk al vernieuwd had moeten worden.
 
 Af en toe kwam in groepsoverleg het idee naar boven om het team op te splitsen in een productteam en een projectteam. Er kwamen vragen en reacties en daar werd naar geluisterd. Er was nog geen formeel plan en er werd geen besluit geforceerd. Het idee hing ergens in de lucht tot het moment dat het vorm kreeg en uitgevoerd ging worden.
 
-Voor mij spreekt uit het bovenstaande veel vertrouwen. In deze situatie bedoel ik vertrouwen als “ok zijn met wat is”. Er is ruimte voor alles wat opkomt, hoe uiteenlopend standpunten ook zijn. Nergens gaan hakken in het zand én nergens probeert iemand een besluit te forceren.
+Als ik vertrouwen definieer als “ok zijn met wat is”footnote:[Woordenboekdefinities zijn onder andere “geloof in de eerlijkheid en de goede bedoelingen van iemand” en “hoop en geloof dat iets goed zal gaan”. Net anders verwoord, maar wat mij betreft in essentie vergelijkbaar.], dan spreekt voor mij uit het bovenstaande veel vertrouwen. Er is ruimte voor alles wat opkomt, hoe uiteenlopend standpunten ook zijn. Dat blijkt ook uit wat er _niet_ gebeurt. Niemand spreekt een veto uit en er is niemand die een besluit probeert door te drukken.
 
-Maar waar is de richting? Hoe ik ook kijk, ik zie het niet. Nergens is een _purpose_, missie, visie of strategie waaraan het al dan niet opsplitsen van het team getoetst wordt. En dat is eigenlijk ook niet zo gek! Want als vertrouwen betekent “ok zijn met wat is”, dan _hoef_ je ook niet te weten waar je team of organisatie naartoe wil en in welke maatschappelijke context. Immers, welke richting dit ook is, je vertrouwt erop dat dit ok is.
+Dus vertrouwen is er volop, maar waar is de richting? Hoe ik ook kijk, ik zie het niet. Nergens is een _purpose_, missie, visie of strategie waaraan het al dan niet opsplitsen van het team getoetst wordt.
 
-Wat dan nog overblijft is alleen vertrouwen.
+Waar ik dat eerder een probleem vond, zie ik nu: verrek, dat is eigenlijk niet zo gek! Want als vertrouwen inderdaad betekent “ok zijn met wat is”, dan _hoef_ je ook niet te weten waar je team of organisatie naartoe wil. Immers, welke richting dit ook is, je vertrouwt erop dat dit ok is.
 
+[%hardbreaks]
+En als richting helemaal wegvalt, blijft alleen vertrouwen over.
 Vertrouwen als enige richting.
-
-“Ok zijn met wat is” als enige _purpose_, missie, visie en strategie.
+“Ok zijn met wat is” als enige _purpose_, missie, visie én strategie.
 
 Zou het écht zo eenvoudig kunnen zijn?
