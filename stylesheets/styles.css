@@ -153,6 +153,10 @@ header, section, footer {
   margin-left: 0.5em;
 }
 
+.footnote {
+  font-size: 0.95rem;
+}
+
 section {
   border:1px solid #e5e5e5;
   border-width:1px 0;
