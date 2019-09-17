@@ -5,7 +5,27 @@ title: Floris Huetink
 <section>
   <div class="columns">
     <div class="columns__column">
-      <h1>Posts</h1>
+      <h1>Live</h1>
+      {% if site.data.shows.size > 0 %}
+        {% for show in site.data.shows %}
+          <p>
+            <strong>{{ show.title }}</strong><br>
+            {{ show.date }} • {{ show.location }}<br>
+            {% for link in show.links %}
+              <a href="{{ link.url}}">{{ link.title }}</a>
+            {% endfor %}
+            <br>
+          </p>
+        {% endfor %}
+      {% else %}
+        <p>Geen live optredens gepland op dit moment.</p>
+      {% endif %}
+      <p>Benieuwd wat je live te horen krijgt?<br>
+      Kijk op <a href="https://vimeo.com/florish">Vimeo</a> voor een impressie!</p>
+    </div>
+
+    <div class="columns__column">
+      <h1>Blog</h1>
       <ul>
         {% for post in site.posts %}
           <li>
@@ -13,19 +33,6 @@ title: Floris Huetink
           </li>
         {% endfor %}
       </ul>
-    </div>
-    <div class="columns_column">
-      <h1>Shows</h1>
-      {% for show in site.data.shows %}
-        <p>
-          <strong>{{ show.title }}</strong><br>
-          {{ show.date }} • {{ show.location }}<br>
-          {% for link in show.links %}
-            <a href="{{ link.url}}" target="_blank">{{ link.title }}</a>
-          {% endfor %}
-          <br>
-        </p>
-      {% endfor %}
     </div>
   </div>
 </section>
