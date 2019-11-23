@@ -1,0 +1,35 @@
+= Profilering
+
+[.lead]
+[%hardbreaks]
+“Wat zit Floris nou voor filmpjes op LinkedIn te plaatsen?”
+“LinkedIn is toch bedoeld om professionele dingen te delen?”
+
+Twee reacties op de https://www.linkedin.com/posts/florishuetink_soms-zit-het-mee-soms-zit-het-tegen-activity-6592127277918629888-t1Un?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BA1zAq3aSS5qg7MleRVPstw%3D%3D[twee] https://www.linkedin.com/posts/florishuetink_ik-heb-vandaag-een-spin-gered-activity-6595024436175347712-NTR-?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BA1zAq3aSS5qg7MleRVPstw%3D%3D[video's] van liedjes die ik recentelijk op LinkedIn heb geplaatst.
+
+Voordat ik de filmpjes plaatste, heb ik ook wel een paar keer gedacht: is dit niet wat vreemd?
+
+Want als je naar mijn LinkedIn profiel kijkt, staat er bijvoorbeeld dit:
+
+[.text-center]
+image:/images/software-engineer.png[alt=Software Engineer – Independent software consultancy and development.,width=500]
+
+Dus toen ik de reacties hierboven hoorde, dacht ik ook wel even: oei, heb ik iets verkeerd gedaan? Vinden mensen me nu raar?
+
+Het bracht me ook tot een gedachte-experiment. Stel nou dat ik dit in mijn profiel had staan:
+
+[.text-center]
+image:/images/performing-artist.png[alt=Performing Artist – Singer-songwriter met licht cabareteske neigingen.,width=500]
+
+Dan was het opeens volstrekt logisch geweest dat ik liedjes deel op LinkedIn! En had niemand het gek gevonden als er hier en daar een grap gemaakt werd in die liedjes.
+
+Alleen... dan was het misschien juist weer vreemd geweest als ik "opeens" artikelen over softwareontwikkeling zou gaan plaatsen tussen de liedjes door.
+
+Grappig dat je door jezelf te profileren als "softwareontwikkelaar" of "artiest" ook jezelf al dan niet bewust beperkingen oplegt in wat je doet en deelt. En hoe kennelijk bij andere mensen ook verwachtingen ontstaan over wat je dan wel en niet deelt op een sociaal netwerk.
+
+Om het simpel te houden zou ik natuurlijk dit op mijn profiel kunnen zetten:
+
+[.text-center]
+image:/images/human-being.png[alt=Human Being – Leven in uitvoering.,width=500]
+
+Of hoort dat niet op LinkedIn?
