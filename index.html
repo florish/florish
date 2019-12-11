@@ -10,7 +10,7 @@ title: Floris Huetink
         {% for show in site.data.shows %}
           <p>
             <strong>{{ show.title }}</strong><br>
-            {{ show.date }} • {{ show.location }}<br>
+            {{ show.date }} • {{show.time}} • {{ show.location }}<br>
             {% for link in show.links %}
               <a href="{{ link.url}}">{{ link.title }}</a>
             {% endfor %}
