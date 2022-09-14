@@ -1,9 +1,9 @@
-image: ruby:2
+image: ruby:3
 cache:
   paths:
   - .bundle
 before_script:
-- gem install bundler:2.0.1
+- gem install bundler:2.3.22
 - bundle --path .bundle/gems
 pages:
   script:
