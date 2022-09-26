@@ -8,7 +8,7 @@ title: Floris Huetink
 
     <p>Op de hoogte blijven van nieuwe muziek en/of optredens?</p>
 
-    <p><a href="https://laposta.nl/f/ssrbx8pr4g3k" target="_blank">Schrijf je in</a> voor de nieuwsbrief!</p>
+    <p>→ <a href="/nieuwsbrief">Schrijf je hier in!</a></p>
   </div>
 
   <hr>
@@ -34,14 +34,14 @@ title: Floris Huetink
   <div class="columns">
     <div class="columns__column">
       <h1>Live</h1>
-      {% if site.data.shows.size > 0 %}
-        {% for show in site.data.shows %}
+      {% if site.data.shows.upcoming.size > 0 %}
+        {% for show in site.data.shows.upcoming %}
           <p>
             <strong>{{ show.title }}</strong><br>
             {{ show.date }} • {{show.time}}<br>
             {{ show.location }}<br>
             {% for link in show.links %}
-              <a href="{{ link.url}}">{{ link.title }}</a>
+              <a href="{{ link.url }}">{{ link.title }}</a>
             {% endfor %}
             <br>
           </p>
