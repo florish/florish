@@ -3,7 +3,7 @@ upcoming:
   date: 2022-10-30
   time: "14:00-18:00"
   location: De Vorstin, Hilversum (meer info volgt)
-  links:
+  links: []
 
 past:
 - title: Mooie Liedjes in Miles
@@ -13,3 +13,50 @@ past:
   links:
     - title: Songwriters Gilde Amersfoort
       url: https://www.facebook.com/events/795399054927004
+
+- title: Struinen in de Tuinen
+  date: 2021-09-05
+  time: "12:45 / 14:15 / 15:45"
+  location: Amersfoort
+  links:
+    - title: Meer informatie
+      url: https://struinenindetuinen.nl/informatie/programma#288
+
+- title: Struinen in de Tuinen
+  date: 2020-09-06
+  time: "12:45 / 14:15 / 15:45"
+  location: Park Randenbroek, Amersfoort
+  links:
+    - url: https://struinenindetuinen.nl/amersfoort/programma#1651
+      title: Meer informatie
+
+- title: Songwriters Gilde Open Mic
+  date: 2020-02-19
+  time: "20:30"
+  location: Café Miles, Amersfoort
+  links:
+    - url: https://www.facebook.com/events/540129843244531/
+      title: Meer informatie
+
+- title: Songwriters Gilde Open Mic
+  date: 2020-01-15
+  time: "20:30"
+  location: Café Miles, Amersfoort
+  links:
+    - url: https://milesamersfoort.nl/agenda/1725078770959217/songwriters-gilde-amersfoort-open-mic
+      title: Meer informatie
+
+- title: Gluren bij de Buren
+  date: 2020-02-09
+  time: "12:00 / 13:30 / 15:00"
+  location: Soest
+  links:
+    - url: https://glurenbijdeburen.nl/soest/programma#644
+      title: Meer informatie
+
+- title: Struinen in de Tuinen
+  date: 2019-07-07
+  location: Amersfoort (NL)
+  links:
+  - title: Details
+    url: https://struinenindetuinen.nl/amersfoort/programma#1952
