@@ -2,8 +2,10 @@ upcoming:
 - title: Open Podium
   date: 2022-10-30
   time: "14:00-18:00"
-  location: De Vorstin, Hilversum (meer info volgt)
-  links: []
+  location: De Vorstin, Hilversum
+  links:
+    - title: Meer informatie
+      url: https://www.devorstin.nl/event/open-podium-11/
 
 past:
 - title: Mooie Liedjes in Miles
