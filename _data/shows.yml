@@ -1,5 +1,21 @@
 upcoming:
 - title: Open Podium
+  date: 2022-11-20
+  time: "15:30"
+  location: Torenlaan Theater, Zeist
+  links:
+    - title: Meer informatie
+      url: https://www.torenlaantheater.nl/evenement/open-podium/
+- title: Gluren bij de Buren
+  date: 2023-02-05
+  time: "3 x 30 minuten tussen 12:00 en 17:00"
+  location: Amersfoort (exacte locatie en tijd n.n.b.)
+  links:
+    - title: Meer informatie
+      url: https://www.glurenbijdeburen.nl/
+
+past:
+- title: Open Podium
   date: 2022-10-30
   time: "14:00-18:00"
   location: De Vorstin, Hilversum
@@ -7,15 +23,6 @@ upcoming:
     - title: Meer informatie
       url: https://www.devorstin.nl/event/open-podium-12/
 
-- title: Open Podium
-  date: 2022-11-20
-  time: "15:30"
-  location: Torenlaan Theater, Zeist
-  links:
-    - title: Meer informatie
-      url: https://www.cultuurzeist.nl/evenementen/open-podium/
-
-past:
 - title: Mooie Liedjes in Miles
   date: 2022-09-21
   time: "20:30"
