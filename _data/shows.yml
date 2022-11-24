@@ -1,11 +1,9 @@
 upcoming:
-- title: Open Podium
-  date: 2022-11-20
-  time: "15:45"
-  location: Torenlaan Theater, Zeist
-  links:
-    - title: Meer informatie
-      url: https://www.torenlaantheater.nl/evenement/open-podium/
+- title: The Intimate Sessions (meer info volgt)
+  date: 2023-01-18
+  time: "20:00"
+  location: TivoliVredenburg, Utrecht
+  links: []
 - title: Gluren bij de Buren
   date: 2023-02-05
   time: "3 x 30 minuten tussen 12:00 en 17:00"
@@ -15,6 +13,14 @@ upcoming:
       url: https://www.glurenbijdeburen.nl/
 
 past:
+- title: Open Podium
+  date: 2022-11-20
+  time: "15:45"
+  location: Torenlaan Theater, Zeist
+  links:
+    - title: Meer informatie
+      url: https://www.torenlaantheater.nl/evenement/open-podium/
+
 - title: Open Podium
   date: 2022-10-30
   time: "14:00-18:00"
