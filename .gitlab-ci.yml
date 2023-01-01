@@ -4,7 +4,7 @@ cache:
   - .bundle
 before_script:
 - gem install bundler:2.3.22
-- bundle --path .bundle/gems
+- bundle config set --local path '.bundle/gems'
 pages:
   script:
   - bundle exec jekyll build -d public --config _config.yml,_config-gitlab.yml -q
