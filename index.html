@@ -24,9 +24,8 @@ title: Floris Huetink
           {{ show.location }}<br>
           {{ show.title }}<br>
           {% for link in show.links %}
-            <a href="{{ link.url }}">{{ link.title }}</a>
+            <a href="{{ link.url }}">{{ link.title }}</a><br>
           {% endfor %}
-          <br>
         </p>
       {% endfor %}
     {% else %}

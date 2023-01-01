@@ -1,9 +1,14 @@
 upcoming:
-- title: The Intimate Sessions (meer info volgt)
+- title: The Intimate Sessions
   date: 2023-01-18
   time: "20:00"
   location: TivoliVredenburg, Utrecht
-  links: []
+  links:
+    - title: TivoliVredenburg agenda
+      url: https://www.tivolivredenburg.nl/agenda/rabo-open-stage-the-intimate-sessions-18-01-2023/
+    - title: Facebook evenement
+      url: https://www.facebook.com/events/3282163085367330/
+
 - title: Gluren bij de Buren
   date: 2023-02-05
   time: "3 x 30 minuten tussen 12:00 en 17:00"
