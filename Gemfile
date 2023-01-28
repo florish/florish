@@ -11,4 +11,4 @@ group :jekyll_plugins do
   gem 'jekyll-asciidoc'
 end
 
-gem "webrick", "~> 1.7"
+gem "webrick"
