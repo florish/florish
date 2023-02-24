@@ -1,28 +1,4 @@
 upcoming:
-- title: Gluren bij de Buren
-  date: 2023-02-05
-  time: "12:00 / 13:30 / 15:00"
-  location: Zwaluwenstraat 1, Amersfoort
-  links:
-    - title: Meer informatie
-      url: https://glurenbijdeburen.nl/nl/programma/amersfoort#1036
-
-- title: Comedy Kleinkunst Avond
-  date: 2023-02-18
-  time: "21:00"
-  location: Theatercafé Muze, Hilversum
-  links:
-    - title: Meer informatie & tickets
-      url: https://theatercafemuze.nl/comedy-kleinkunst-avond/
-
-- title: Comedy Kleinkunst Avond
-  date: 2023-02-25
-  time: "21:00"
-  location: Theatercafé Muze, Hilversum
-  links:
-    - title: Meer informatie & tickets
-      url: https://theatercafemuze.nl/comedy-kleinkunst-avond/
-
 - title: Comedy Kleinkunst Avond
   date: 2023-03-10
   time: "21:00"
@@ -40,6 +16,14 @@ upcoming:
       url: https://theatercafemuze.nl/comedy-kleinkunst-avond/
 
 past:
+- title: Gluren bij de Buren
+  date: 2023-02-05
+  time: "12:00 / 13:30 / 15:00"
+  location: Zwaluwenstraat 1, Amersfoort
+  links:
+    - title: Meer informatie
+      url: https://glurenbijdeburen.nl/nl/programma/amersfoort#1036
+
 - title: The Intimate Sessions
   date: 2023-01-18
   time: "20:00"
