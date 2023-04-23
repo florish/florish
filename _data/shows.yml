@@ -1,4 +1,5 @@
-upcoming:
+upcoming: []
+past:
 - title: Comedy Kleinkunst Avond
   date: 2023-03-10
   time: "21:00"
@@ -15,7 +16,6 @@ upcoming:
     - title: Meer informatie & tickets
       url: https://theatercafemuze.nl/comedy-kleinkunst-avond/
 
-past:
 - title: Gluren bij de Buren
   date: 2023-02-05
   time: "12:00 / 13:30 / 15:00"
